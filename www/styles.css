@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+
+body{
+    background-image: url(https://picsum.photos/1400/1400/?grayscale&blur=5);
+}
+img#cat{
+    width: 200px; height: 200px;
+    position: relative;
+    top: 100px; left: 450px;
+}
+div#refran{
+    color: rgb(250, 213, 4);
+    font: bold 28pt serif;
+    font-family: 'Dancing Script';
+    text-shadow: 2px 2px 2px black;
+    position: relative;
+    top: 150px; left:310px;
+    max-width: 500px;
+}
+header{
+    color: rgb(250, 213, 4);
+    font: bold 28pt serif;
+    font-family: 'Dancing Script';
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    top: 10px; left: 450px;
+}
+p{
+    font: bold 18pt serif;
+    color: rgb(250, 213, 4);
+    font-family: 'Dancing Script';
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    position: absolute;
+    top: 500px; left: 300PX;
+    max-width: 800px;
+}
+input#intro{
+    position: absolute;
+    top: 570px; left: 800px;
+}
+input#inicio{
+    position: fixed;
+    top: 570px; left: 300px;
+}
+input#final{
+    position: fixed;
+    top: 570px; left: 550px;
+}
+iframe{
+    position: absolute;
+    top: 50px; left: -500px;
+    background-color:0,0,0,0.6;
+}
+#prev{
+    position: absolute;
+    top: 20px; left: 500px;
+}
+.prevision{
+    position: absolute;
+    text-align: center;
+    top: -20px; left: 540px;
+}
+.city{
+    position: absolute;
+    text-align: center;
+    top: 190px; left: 550px
+}
