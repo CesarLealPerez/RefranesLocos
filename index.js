@@ -21,7 +21,7 @@ const collName2 = 'Finales';
 
 var col, cli;
 
-const port = 3000
+const port = process.enc.PORT || 3000
 
 /*var inicios = ['A quien me toca los melones,','A barriga llena,','A buen entendedor,','A buen hambre,','A buenas horas,','A burro muerto,','A caballo regalado ','A cada cerdo ','A Dios rogando ','A enemigo que huye,','A falta de pan,','A grandes males,','A gusto de los cocineros','A la arrogancia en el pedir,','A la cama no te irás','A la tercera','A la vejez,','A lo hecho,' ];
 var finales = ['patada en los cojones','y con el mazo dando.','pecho.','viruelas.','va la vencida.','sin saber una cosa más.','la virtud del no dar.','comen los frailes.','grandes remedios.','buenas son tortas.','puente de plata.','corazón contento.','pocas palabras bastan.', 'no hay pan duro.',' mangas verdes',' la cebada al rabo.','no le mires el diente.','le llega su San Martín.'];
